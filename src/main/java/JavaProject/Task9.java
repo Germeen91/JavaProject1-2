@@ -20,7 +20,7 @@ public class Task9 {
         }
         System.out.println();
         System.out.println( "the second largest number is "+ num[num.length-2]);
-        System.out.println(num[num.length/2]);
+        System.out.println(num[num.length/2]); // middle number
 
     }
 
