@@ -18,6 +18,12 @@ public class Task8 {
                 System.out.println(names.get(i).toLowerCase());
             }
         }
+        ///////////////////////////////////////////////////////
+        names.forEach(x->{
+            if (x.startsWith("A")){
+                System.out.println(x.toLowerCase());
+            }
+        });
 
 
     }

@@ -4,6 +4,11 @@ given the input "Hello", the output should be "olleH".
 */
 public class Task3 {
     public static void main(String[] args) {
+
+        StringBuilder str1=new StringBuilder("Hello");
+        System.out.println(str1.reverse());
+
+        //////////////////////////
         String str="Hello";
 
         String reverse="";

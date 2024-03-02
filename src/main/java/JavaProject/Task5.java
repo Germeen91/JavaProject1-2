@@ -27,7 +27,7 @@ public class Task5 {
 
       System.out.println(first);
         System.out.println(second);
-first=first+second;
+first=first+second;   // always start with +
 second=first-second;
 first=first-second;
 

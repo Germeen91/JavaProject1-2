@@ -10,7 +10,9 @@ public class Task4 {
 
         for (int i=str.length()-1; i>=0; i--){
             palindrome=palindrome+str.charAt(i);
-        }if (str.equalsIgnoreCase(palindrome)){
+        }
+
+        if (str.equalsIgnoreCase(palindrome)){
             System.out.println(str+" is palindrome");
         }else {
             System.out.println(str+"Not palindrome");

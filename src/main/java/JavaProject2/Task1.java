@@ -11,8 +11,8 @@ public class Task1 {
         System.out.println(s1);
         System.out.println(s2);
 
-String New1=s1.replaceAll(s1,s2);
-String New2=s2.replaceAll(s2,s1);
+        String New1=s1.replaceAll(s1,s2);
+        String New2=s2.replaceAll(s2,s1);
 
         System.out.println(New1);
         System.out.println(New2);

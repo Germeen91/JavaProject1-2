@@ -12,23 +12,15 @@ public class Task5 {
 
         String s1 = "listen";
         String s2 = "silent";
-        boolean anagrams = false;
+        char[] s1Arr=s1.toCharArray();
+        char[] s2Arr=s2.toCharArray();
+        Arrays.sort(s1Arr);        //Arrays. >> will give you so many methods
+        Arrays.sort(s2Arr);
+        System.out.println(Arrays.toString(s1Arr));
+        System.out.println(Arrays.toString(s2Arr));
+        //to check if arrays are equals
+        System.out.println(Arrays.equals(s1Arr,s2Arr));
 
-        if (s1.length() != s2.length()) {
-            System.out.println(anagrams);
-        } else {
 
-            char[] s11 = s1.toCharArray();
-            char[] s22 = s2.toCharArray();
-
-            Arrays.sort(s11);
-            Arrays.sort(s22);
-            anagrams=Arrays.equals(s11,s22);
-
-        }if (anagrams==true){
-            System.out.println("anagrams");
-        }else {
-            System.out.println("not anagrams");
-        }
         }
     }

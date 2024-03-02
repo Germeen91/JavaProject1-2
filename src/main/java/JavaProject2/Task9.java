@@ -6,6 +6,7 @@ public class Task9 {
     public static void main(String[] args) {
 
         String str="abracadabra";
+
         for (int i = 0; i < str.length(); i++) {
             boolean unique=true;
 

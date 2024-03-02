@@ -2,9 +2,10 @@ package JavaProject2;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
+import java.util.Map;
 import java.util.Set;
 
-/* How can you remove all duplicates from ArrayList?
+/*10- How can you remove all duplicates from ArrayList?
  */
 public class Task10 {
     public static void main(String[] args) {
@@ -26,7 +27,10 @@ public class Task10 {
         }
 
         System.out.println(names);
+////////////////////////////////////////////////
+Set<String> name=new LinkedHashSet<>(names);
 
+name.forEach(x-> System.out.println(x));
            }
 
 }
